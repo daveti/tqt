@@ -3,6 +3,8 @@
  * Try to get the quote using AIK and verify the signature - Locally!
  * Reference: getaikpub.c, aikquote.c (from privacyca.com)
  * Build: gcc -o aikquote aikquote.c -ltspi
+ * Sep 17, 2013
+ * Added writting to files for AIK pub key and PCR good value
  * Sep 11, 2013
  * root@davejingtian.org
  * http://davejingtian.og
@@ -19,6 +21,8 @@
 #define PCR_NUM		8
 #define PCR_LEN		20
 #define PCR_BUF_LEN	(PCR_NUM*PCR_LEN)
+#define AIK_PUB_KEY_FILE	"./aik_pub_key.key"
+#define PCR_GOOD_VALUE_FILE	"./pcr_good_value.pcr"
 
 /* Define the SRK passwd here used for auth */
 static char srk_pass[] = "00000000000000000000";
@@ -89,6 +93,56 @@ static void display_validation(TSS_VALIDATION *valid)
 	display_uchar(valid->rgbData, valid->ulDataLength, "Data");
 	printf("ulValidationDataLength = %u\n", valid->ulValidationDataLength);
 	display_uchar(valid->rgbValidationData, valid->ulValidationDataLength, "ValidationData");
+}
+
+static void write_pub_key_to_file(unsigned char *key, int len)
+{
+	FILE *keyfile;
+	int ret;
+
+	keyfile = fopen(AIK_PUB_KEY_FILE, "wb");
+	if (keyfile == NULL) {
+		printf("Unable to create key file [%s]\n", AIK_PUB_KEY_FILE);
+		exit(-1);
+	}
+
+	ret = fwrite(key, 1, len, keyfile);
+	if (ret != len) {
+		printf("I/O Error writing key file [%s]\n", AIK_PUB_KEY_FILE);
+		exit(-1);
+	}
+
+	fclose(keyfile);
+	printf("Write key file [%s] done with len [%d]\n",
+		AIK_PUB_KEY_FILE, len);
+}
+
+static void write_pcr_good_value_to_file()
+{
+        FILE *pcrfile;
+        int ret;
+	int len = 0;
+	int i;
+
+        pcrfile = fopen(PCR_GOOD_VALUE_FILE, "wb");
+        if (pcrfile == NULL) {
+                printf("Unable to create PCR file [%s]\n", PCR_GOOD_VALUE_FILE);
+                exit(-1);
+        }
+
+	for (i = 0; i < PCR_NUM; i++)
+	{
+        	ret = fwrite(pcr_good_value[i], 1, PCR_LEN, pcrfile);
+        	if (ret != PCR_LEN) {
+                	printf("I/O Error writing PCR file [%s]\n", AIK_PUB_KEY_FILE);
+                	exit(-1);
+		}
+		len += ret;
+        }   
+
+        fclose(pcrfile);
+        printf("Write PCR file [%s] done with len [%d]\n",
+                AIK_PUB_KEY_FILE, len);
 }
 
 static void
@@ -223,6 +277,9 @@ int main(void)
         /* Output the pub key of AIK */
         display_uchar(prgbPubKey, pulPubKeyLength, "AIK pub key");
 
+	/* Write the pub key into the file */
+	write_pub_key_to_file(prgbPubKey, pulPubKeyLength);
+
 	/* Get the nonce locally for further quote */
 	ulRandomDataLength = TPM_SHA1BASED_NONCE_LEN; /* 20 bytes */
 	result = Tspi_TPM_GetRandom(hTPM,
@@ -298,6 +355,9 @@ goto close;
 
 	/* Output the PCRs */
 	display_pcrs();
+
+	/* Write the PCRs into file */
+	write_pcr_good_value_to_file();
 
 	/* Fill in rest of PCR buffer */
         bp = buf + 2 + npcrBytes;
