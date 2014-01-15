@@ -1,0 +1,10 @@
+root@arpsec02:~/git/tqt/master# ./aik_perf.sh
+tpm_aik_gen:
+time in ms min/avg/max/mdev
+0.864653/9.385568/43.716713/5.932327
+arpsec_aik_gen:
+time in ms min/avg/max/mdev
+3.879260/12.841397/46.759293/6.062346
+tpm_perf.sh done
+root@arpsec02:~/git/tqt/master# 
+

@@ -1,0 +1,1600 @@
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [0.864653] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [7.097434] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [0.924548] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [6.199702] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [0.876713] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [3.879260] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [0.888635] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [3.975280] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [0.864666] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [3.903254] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [0.876669] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [4.003328] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [0.900633] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [3.963355] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [0.924641] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [3.959165] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [0.912631] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [3.971355] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [0.888631] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [3.983325] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [0.912658] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [3.915365] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [0.888643] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [4.023337] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [1.704642] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [4.759428] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [4.884733] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [7.863390] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [10.584661] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [13.567021] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [6.336714] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [9.479311] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [4.632650] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [7.615304] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [16.200714] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [20.583332] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [13.368744] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [18.075321] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [18.276691] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [21.319302] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [10.260695] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [13.303311] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [5.940727] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [8.935286] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [16.560711] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [19.575296] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [19.104700] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [22.079294] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [14.412702] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [17.467260] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [2.976667] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [5.931357] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [21.768711] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [24.719286] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [10.596668] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [14.703322] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [4.464638] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [9.099311] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [12.228737] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [16.807316] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [11.628733] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [16.435257] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [6.132676] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [10.507186] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [20.164703] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [23.962906] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [8.016699] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [10.995212] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [6.516743] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [9.547343] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [25.764734] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [28.771269] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [6.648679] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [9.755311] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [11.784703] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [14.759330] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [16.572723] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [21.195383] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [0.876683] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [5.431292] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [1.692673] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [6.115230] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [13.224698] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [18.695316] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [7.728703] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [12.431196] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [18.192688] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [22.995344] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [0.876639] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [5.951315] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [7.620652] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [10.595350] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [18.504711] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [21.551361] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [2.172643] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [5.187319] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [11.052708] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [14.087372] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [6.840673] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [9.855333] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [11.652677] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [14.567318] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [9.396722] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [12.495220] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [11.976701] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [17.099304] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [6.912707] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [9.939299] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [5.652671] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [9.351297] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [2.424647] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [6.527321] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [13.464702] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [16.679409] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [12.204703] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [15.267304] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [9.984732] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [13.055290] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [20.748690] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [23.979322] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [6.792696] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [9.859347] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [12.348762] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [15.303316] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [1.344678] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [4.355563] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [22.176701] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [25.107054] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [25.404760] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [28.363295] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [12.264705] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [15.259246] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [43.716713] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [46.759293] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [2.280641] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [5.231327] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [1.920678] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [4.951374] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [18.792696] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [24.423409] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [9.396679] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [14.035277] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [13.716698] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [19.031250] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [28.920736] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [34.739304] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [3.000708] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [7.259258] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [12.648738] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [15.667319] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [6.336724] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [9.315217] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [3.144710] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [6.115299] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [9.936690] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [12.955339] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [20.616596] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [23.615295] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [8.220712] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [11.247358] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [10.404722] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [13.399241] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [11.136708] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [14.123247] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [7.716763] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [10.743318] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [27.096708] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [30.199291] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [5.532662] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [8.511267] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [12.360696] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [15.355266] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [9.468694] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [12.463329] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [2.748654] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [5.711373] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [1.344637] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [4.367348] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [6.144686] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [9.107389] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [4.776654] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [7.859416] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [18.708723] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [21.659395] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [3.504584] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [6.503045] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [4.188649] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [7.159150] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [5.856672] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [8.887163] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [4.776680] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [7.739139] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [9.012736] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [12.019075] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [6.348722] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [9.327226] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [3.432683] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [6.387262] ms
+Success!
+Retrieving PCA certificate...
+Generating identity key...
+Into RPC_MakeIdentity_TP
+sendTCSDPacket with result [0x0], [Success]
+debug result [0x0], [Success]
+debug result [0x3004], [Internal software error]
+debug result [0x3005], [Out of memory]
+hte->comm.hdr.u.result [0x0], [Success]
+reset the result to be packet header result
+RPC_MakeIdentity_TP goto done with result [0x0], [Success]
+Tspi_TPM_CollateIdentityRequest goto error with result [Success]
+Total time on Tspi_TPM_CollateIdentityRequest2() is [9.552687] ms
+Sending request to PrivacyCA.com...
+Processing response...
+Total time on TPM_AIK_Gen() is [12.479308] ms
+Success!

@@ -3,6 +3,8 @@
  * Try to get the quote using AIK and verify the signature - Locally!
  * Reference: getaikpub.c, aikquote.c (from privacyca.com)
  * Build: gcc -o aikquote aikquote.c -ltspi
+ * Nov 12, 2013
+ * Added time measurement for quote and verification
  * Sep 17, 2013
  * Added writting to files for AIK pub key and PCR good value
  * Sep 11, 2013
@@ -15,6 +17,9 @@
 #include <arpa/inet.h>
 #include <trousers/tss.h>
 #include <trousers/trousers.h>
+
+//daveti: timing for key gen
+#include <sys/time.h>
 
 #define NUM_PER_LINE    16
 #define TSS_UUID_AIK    {0, 0, 0, 0, 0, {0, 0, 0, 0, 2, 0}}
@@ -282,9 +287,22 @@ int main(void)
 
 	/* Get the nonce locally for further quote */
 	ulRandomDataLength = TPM_SHA1BASED_NONCE_LEN; /* 20 bytes */
+
+//daveti: add time measurement for rand
+struct timeval tpstart1,tpend1;
+float timeuse1 = 0;
+gettimeofday(&tpstart1,NULL);
+
 	result = Tspi_TPM_GetRandom(hTPM,
 				ulRandomDataLength,
 				&prgbRandomData);
+
+//daveti: end time for rand
+gettimeofday(&tpend1,NULL);
+timeuse1=1000000*(tpend1.tv_sec-tpstart1.tv_sec)+tpend1.tv_usec-tpstart1.tv_usec;
+timeuse1/=1000000;
+printf("Total time on Tspi_TPM_GetRandom() is [%f] ms\n", timeuse1);
+
 	if (result != TSS_SUCCESS)
 	{
 		printf("Tspi_TPM_GetRandom failed [%s]\n", Trspi_Error_String(result));
@@ -379,6 +397,11 @@ rtn = 0;
 goto close;
 #endif
 
+//daveti: add time measurement for quote
+struct timeval tpstart,tpend;
+float timeuse = 0;
+gettimeofday(&tpstart,NULL);
+
 	/* Create the PCR Composite object for quote */
 	result = Tspi_Context_CreateObject(hContext,
 					TSS_OBJECT_TYPE_PCRS,
@@ -421,6 +444,12 @@ goto close;
 		goto close;
 	}
 
+//daveti: end of measure for quote
+gettimeofday(&tpend,NULL);
+timeuse=1000000*(tpend.tv_sec-tpstart.tv_sec)+tpend.tv_usec-tpstart.tv_usec;
+timeuse/=1000000;
+printf("Total time on Tspi_TPM_Quote() is [%f] ms\n", timeuse);
+
 	/* Debug */
 	display_validation(&pValidationData);
 
@@ -432,6 +461,11 @@ goto close;
 rtn = 0;
 goto close;
 #endif
+
+//daveti: add time measurement for verify
+struct timeval tpstart2,tpend2;
+float timeuse2 = 0;
+gettimeofday(&tpstart2,NULL);
 
 	/* Verify the PCRs value digest locally */
 	sha1(hContext, buf, bufLen, digest);
@@ -522,11 +556,29 @@ goto close;
 	ulSignatureLength = pValidationData.ulValidationDataLength;
 	rgbSignature = pValidationData.rgbValidationData;
 
+//daveti: add time measurement for verifySig
+struct timeval tpstart3,tpend3;
+float timeuse3 = 0;
+gettimeofday(&tpstart3,NULL);
+
 	/* Verify the damn quote using AIK pub key */
 	result = Tspi_Hash_VerifySignature(hHash,              /* in */
                           		hKey,                /* in */
                           		ulSignatureLength,     /* in */
                           		rgbSignature);          /* in */
+
+//daveti: end of measure for verifySig
+gettimeofday(&tpend3,NULL);
+timeuse3=1000000*(tpend3.tv_sec-tpstart3.tv_sec)+tpend3.tv_usec-tpstart3.tv_usec;
+timeuse3/=1000000;
+printf("Total time on Tspi_Hash_VerifySignature() is [%f] ms\n", timeuse3);
+
+//daveti: end of measure for verify 
+gettimeofday(&tpend2,NULL);
+timeuse2=1000000*(tpend2.tv_sec-tpstart2.tv_sec)+tpend2.tv_usec-tpstart2.tv_usec;
+timeuse2/=1000000;
+printf("Total time on TPM_Verify() is [%f] ms\n", timeuse2);
+
 	if (result != TSS_SUCCESS)
 	{
 		printf("Tspi_Hash_VerifySignature failed [%s]\n", Trspi_Error_String(result));

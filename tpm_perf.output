@@ -1,0 +1,17 @@
+root@arpsec02:~/git/tqt/master# ./tpm_perf.sh
+rm: cannot remove `*.log': No such file or directory
+tpm_rand:
+time in ms min/avg/max/mdev
+0.010915/0.011399/0.011468/0.000035
+tpm_quote:
+time in ms min/avg/max/mdev
+0.324467/0.336109/0.336541/0.000698
+tpm_verfiy:
+time in ms min/avg/max/mdev
+0.000120/0.000199/0.000213/0.000006
+tpm_attest_verify:
+time in ms min/avg/max/mdev
+0.000208/0.000307/0.000344/0.000009
+tpm_perf.sh done
+root@arpsec02:~/git/tqt/master# 
+

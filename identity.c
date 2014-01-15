@@ -44,6 +44,8 @@
 #include <trousers/tss.h>
 #include <trousers/trousers.h>
 
+//daveti: timing for key gen
+#include <sys/time.h>
 
 /* Size of endorsement key in bytes */
 #define	EKSIZE		(2048/8)
@@ -248,6 +250,11 @@ main (int argc, char **argv)
 
 	printf ("Retrieving PCA certificate...\n");
 
+//daveti: add time measurement for this function call
+struct timeval tpstart,tpend;
+float timeuse = 0;
+gettimeofday(&tpstart,NULL);
+
 	x509 = readPCAcert (level);
 	if (x509 == NULL) {
 		fprintf (stderr, "Error reading PCA key\n");
@@ -422,11 +429,24 @@ daveti
 	}
 
 	printf ("Generating identity key...\n");
+
+//daveti: add time measurement for this function call
+struct timeval tpstart1,tpend1;
+float timeuse1 = 0;
+gettimeofday(&tpstart1,NULL);
+
 	result = Tspi_TPM_CollateIdentityRequest(hTPM, hSRK, hPCAKey, labelLen,
 						 rgbIdentityLabelData,
 						 hIdentKey, TSS_ALG_AES,
 						 &ulTCPAIdentityReqLength,
 						 &rgbTCPAIdentityReq);
+
+//daveti: key gen measurement
+gettimeofday(&tpend1,NULL);
+timeuse1=1000000*(tpend1.tv_sec-tpstart1.tv_sec)+tpend1.tv_usec-tpstart1.tv_usec;
+timeuse1/=1000000;
+printf("Total time on Tspi_TPM_CollateIdentityRequest2() is [%f] ms\n", timeuse1);
+
 	if (result != TSS_SUCCESS){
 		printf ("Error 0x%x on Tspi_TPM_CollateIdentityRequest\n", result);
 //daveti
@@ -491,6 +511,13 @@ daveti
 		exit(result);
 	}
 
+//daveti: key gen measurement
+gettimeofday(&tpend,NULL);
+timeuse=1000000*(tpend.tv_sec-tpstart.tv_sec)+tpend.tv_usec-tpstart.tv_usec;
+timeuse/=1000000;
+printf("Total time on TPM_AIK_Gen() is [%f] ms\n", timeuse);
+
+#ifndef KEY_GEN_MEASURE
 //daveti: here we go...
 	/* Make sure we have registered the key and get the UUID */
 	result = Tspi_Context_RegisterKey(hContext, hIdentKey,
@@ -520,9 +547,7 @@ daveti
 	/* Output the pub key of AIK */
 	printf("daveti: AIK pub key...\n");
 	display_uchar(prgbPubKey, pulPubKeyLength);
-//daveti: time to lunch...
 	
-
 	/* Output key blob */
 	result = Tspi_GetAttribData (hIdentKey, TSS_TSPATTRIB_KEY_BLOB,
 		TSS_TSPATTRIB_KEYBLOB_BLOB, &blobLen, &blob);
@@ -548,6 +573,9 @@ daveti
         PEM_write_X509 (f_out, x509);
 	fclose (f_out);
 	X509_free (x509);
+
+//daveti: hack for key_gen_measure
+#endif
 
 	printf ("Success!\n");
 	return 0;
